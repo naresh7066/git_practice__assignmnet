@@ -1,16 +1,16 @@
 function prime(num)
 {
-  let c=0;
+  let count=0;
   for(let i=1; i<=num; i++)
   {
-      if(num%i==0)
+      if(num%i===0)
       {
-        c++;
+        count++;
         
       }
   }
   
-  if(c==2)
+  if(count===2)
   {
     console.log(num,"is Prime");
   }
